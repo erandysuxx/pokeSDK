@@ -1,0 +1,31 @@
+# Variables de entorno
+.env
+.env.*
+!.env.template
+ 
+# Builds
+dist/
+build/
+*.egg-info/
+*.whl
+ 
+# Entorno virtual
+.venv/
+venv/
+ 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+ 
+# Tests cache
+.pytest_cache/
+ 
+# Archivos generados por el SDK
+*.csv
+*.json
+*.parquet
+ 
+# MacOS
+.DS_Store
+ 
